@@ -2,9 +2,10 @@
 Rcommending available courses based on  the subject
 # Web Application frame work
 ## Homepage
-![Screenshot 2024-03-30 164213](https://github.com/nayana142/Udemy_Course_Recommendation/assets/120770261/69588765-5d08-4ac2-8944-f5279ec14684)
+![Screenshot 2024-03-30 164213](https://github.com/nayana142/Course_Recommendation/assets/120770261/2f6f3867-419f-44c6-93ee-1b3ced549515)
+
 ## Recommending Courses 
-![Screenshot 2024-03-30 164143](https://github.com/nayana142/Udemy_Course_Recommendation/assets/120770261/ed070716-ce8e-4b82-aa33-4981f6934ca5)
+![Screenshot 2024-03-30 164143](https://github.com/nayana142/Course_Recommendation/assets/120770261/32a83875-6f06-4cbb-9a13-d719e7a9bac2)
 
 ## Abstract:
     This project aims to develop a personalized course recommendation engine integrated with a Django web application, leveraging machine
@@ -44,5 +45,4 @@ Rcommending available courses based on  the subject
         * Set up a Django project to serve as the framework for the course recommendation system.
         * Implement backend functionality within the Django application to handle user queries and communicate with the recommendation model.
    ## Tools Used
-![tools_used](https://github.com/nayana142/Udemy_Course_Recommendation/assets/120770261/d20d5809-d2b6-4338-9b1b-fa4ea6609c66)
-
+![tools_used](https://github.com/nayana142/Course_Recommendation/assets/120770261/5bbbec11-1ae0-491c-a6cf-3f817578e77d)
