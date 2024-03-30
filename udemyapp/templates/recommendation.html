@@ -1,0 +1,56 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommended Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: rgb(248, 221, 155);
+            color: rgb(17, 13, 16); /* Set text color to white */
+            text-align: center; /* Center align text */
+        }
+        h1 {
+    
+        text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Available Courses</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Course Title</th>
+                <th>Course Details</th>
+                <th>Fees</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in results %}
+                <tr>
+                    <td>{{ result.0 }}</td>
+                    <td><a href="{{ result.1 }}"> Link</Details></a></td>
+                    <td>${{ result.2 }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <p><a href="{% url 'recommend_courses' %}">Back to Search</a></p>
+
+</body>
+</html>

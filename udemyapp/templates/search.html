@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Form</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <style>
+        .center {
+            text-align: center;
+        }
+        h1 {
+        color: #150d32; /* set text color */
+        background-color: #848593;
+    
+     }
+     p {
+    color: #f8f4f0; /* set text color */
+    
+     }
+     button:hover {
+    background-color: #f2e99a; /* set hover background color */
+}
+
+    </style>
+</head>
+<body>
+    <h1> UDEMY : YOUR PERSONALIZED COURSE COMPANION </h1>
+    <p> Navigate Your Course Journey with Precision</p>
+    <form method="post">
+        {% csrf_token %}
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif,Helvetica Bold, Helvetica;
+    text-align: center; /* align text to the center */
+    background-color: white;
+    background-image: url('images/homepage2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+h1, h4, h5, h6 {
+    color: #020563; /* set text color */
+    /* text-decoration: underline; */
+}
+h2 {
+    color: #090131; /* set text color */
+    
+}
+h3 {
+    color: #daf0d6; /* set text color */
+    
+}
+
+p {
+    color: hsl(248, 67%, 8%); /* set text color */
+    line-height: 1.5; /* set line height */
+}
+
+/* home page styles */
+.index-page {
+    /* background-image: url('images/input2.jpg'); set background image */
+    background-size: cover; /* cover the entire viewport */
+    background-position: center; /* center the background image */
+    background-repeat: no-repeat; /* do not repeat the background image */
+    color: #fff; /* set text color */
+}
+
+/* input page styles */
+.input-page {
+    /* background-image: url('images/input3.jpg'); set background image */
+    background-size: cover; /* cover the entire viewport */
+    /* background-position: center; center the background image */
+    background-repeat: no-repeat; /* do not repeat the background image */
+    color: #fbf8f8; /* set text color */
+}
+
+/* output page styles */
+.output-page {
+    /* background-image: url('images/result1.jpg'); set background image */
+    background-size: cover; /* cover the entire viewport */
+    /* background-position: center; center the background image */
+    background-repeat: no-repeat; /* do not repeat the background image */
+    color: #fffdfd; /* set text color */
+}
+
+.previousedata-page {
+    /* background-image: url('images/previousedata.jpg'); set background image */
+    background-size: cover; /* cover the entire viewport */
+    background-position: center; /* center the background image */
+    background-repeat: no-repeat; /* do not repeat the background image */
+    color: #fffdfd; /* set text color */
+}
+/* form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    /* background-color: #fff; set background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: hsl(0, 13%, 91%); /* set text color */
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ede5e8; /* set background color */
+    /* color: #fff; set text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #074f04; /* set hover background color */
+}
+
+a {
+    color: #ec0b70; /* set text color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
